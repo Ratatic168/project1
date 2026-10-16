@@ -1,0 +1,25 @@
+{
+  "name": "pickup-wms",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Система управления складом пункта выдачи (WMS) с 2D/3D визуализацией",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "start": "node server/server.ts",
+    "dev": "node --watch server/server.ts",
+    "seed": "node server/cli.ts --seed",
+    "web:install": "npm --prefix web install",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build",
+    "setup": "npm install && npm run web:install",
+    "build": "npm run web:build"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fastify/static": "^8.0.3",
+    "fastify": "^5.2.1"
+  }
+}

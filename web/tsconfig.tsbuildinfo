@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/format.ts","./src/main.tsx","./src/types.ts","./src/components/orderlocation.tsx","./src/pages/customers.tsx","./src/pages/dashboard.tsx","./src/pages/journal.tsx","./src/pages/orderdetail.tsx","./src/pages/orders.tsx","./src/pages/products.tsx","./src/pages/warehouse2d.tsx","./src/pages/warehouse3d.tsx"],"version":"5.9.3"}

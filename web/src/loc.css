@@ -1,0 +1,73 @@
+/* ===== Панель «Где найти заказ» ===== */
+.loc-panel {
+  margin-bottom: 16px;
+}
+
+.loc-panel--empty {
+  border-style: dashed;
+}
+
+.loc-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .loc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.loc-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.loc-row:last-child {
+  border-bottom: none;
+}
+
+.loc-addr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.loc-addr-part {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.loc-cell {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.loc-cell:hover {
+  background: var(--accent-2);
+  text-decoration: none;
+}
+
+.loc-map {
+  background: #0b1120;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px;
+}

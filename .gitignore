@@ -1,0 +1,23 @@
+﻿# Системные файлы С
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# оги и временные файлы
+*.log
+*.tmp
+*.bak
+
+# омпилированные файлы и артефакты сборки (C++)
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+Debug/
+Release/
+x64/
+x86/
+*.pdb
+*.ilk
+*.exp
